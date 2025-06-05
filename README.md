@@ -1,1 +1,1 @@
-# Repository of Basic Troubleshooting Guides for Rueter's IT
+# Basic IT Troubleshooting Guides
