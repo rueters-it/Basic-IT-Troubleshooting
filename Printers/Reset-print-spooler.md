@@ -1,9 +1,15 @@
 # Reset print spooler 
 
-The print spooler service is the service that tells your computer to print. Resetting it may resolving majority of printing errors. 
+The Print Spooler service is the service that tells your computer to print. It is a software servcies that acts as a temporary storage area for print jobs before they are sent to the printer. It basically manages the printing processes, ensuring jobs are sent in the correct order and that the printer resources are available. <br />
+
+Resetting the print spooler may resolving majority of common printing errors, such as: 
+- Stuck print jobs in queue
+- Print error messages related to spooler or printer connection
+- Communication issues between your computer and the printer
+- General printing problems not associated with a particular error
 
 ### To reset print spooler:
-1. Search `Run` in the Windows search bar in task bar. Or press `Windows key` + `R`.
+1. Search "Run" in the Windows search bar. (Alternatively, you can press `Windows key` + `R` as the keyboard shortcut.)
 2. The **Run dialog box** should have popped up.
 3. In that dialog box, type `services.msc`, then press `Enter`.
 4. The **Services windows** will open. In the list, scroll until you find "Print Spooler" and double-click on it. (Note: This service should be always be running and startup type is set to Automatic)
